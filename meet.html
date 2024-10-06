@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+</head>
+
+<body>
+    <ol>
+        <li>
+            <h3>Are the HTML tags and elements the same thing?</h3>
+            <ul>
+                <li type="DISC">
+                    <h4>Tags</h4>
+                    <p>HTML Tags: Tags are the starting and ending parts of an HTML element. They begin with &lt;symbol
+                        and end with &gt; symbol. Whatever written inside &lt;and&gt; are called tags.</p>
+                </li>
+                <li type="disc">
+                    <h4>Elements</h4>
+                    <p>HTML elements: Elements enclose the contents in between the tags. They consist of some kind of
+                        structure or expression. It generally consists of a start tag, content and an end tag.</p>
+                </li>
+            </ul>
+            <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220131100445/Group-3-2.jpg"
+                height="500px" alt="Tag and element">
+        </li>
+        <hr>
+        <li>
+            <h3>What are tags and attributes in HTML?</h3>
+            <ul>
+                <li type="disc">
+                    <h4>Tags</h4>
+                    <p>HTML Tags: Tags are the starting and ending parts of an HTML element. They begin with &lt;symbol
+                        and end with &gt; symbol. Whatever written inside &lt;and&gt; are called tags.</p>
+                </li>
+                <li type="disc">
+                    <h4>attributes</h4>
+                    <p>HTML Attributes: It is used to define the character of an HTML element. It always placed in the
+                        opening tag of an element. It generally provides additional styling (attribute) to the element.
+                    </p>
+                    <p>For Example: <br>&lt;p align="center"&gt;this is paragraph.&lt;/p&gt;</p>
+                </li>
+            </ul>
+        </li>
+        <hr>
+        <li>
+            <h3>What are void elements in HTML?</h3>
+            <ul>
+                <li type="disc">
+                    Most of the HTML elements are surrounded by start and end tags to specify the starting and end of
+                    the element.There is a special group of elements that only have start tags and does not contain any
+                    content within it, these elements are called void elements. Void elements doesn’t have ending tags
+                    and can only have attributes but do not contain any kind of content. These elements can have
+                    backslash before ending of start tag but that is completely optional. Example of such elements are
+                    &lt;br&gt;, &lt;hr&gt; etc.
+                </li>
+            </ul>
+        </li>
+        <hr>
+        <li>
+            <h3>What are HTML Entities?</h3>
+            <ul>
+                <li type="disc">HTML entities are the reserved characters that have special meaning when used in an HTML
+                    document. Each of these codes starts with an ampersand and ends with a semicolon.</li><br>
+            </ul>
+            <table width="40%" border="1" cellpadding="10px">
+                <tr>
+                    <th>Result</th>
+                    <th>Description</th>
+                    <th>Name</th>
+                    <th>Number</th>
+                </tr>
+                <tr align="center">
+                    <td></td>
+                    <td>non-breaking space</td>
+                    <td>&ampnbsp;</td>
+                    <td>&amp#160;</td>
+                </tr>
+                <tr align="center">
+                    <td>&lt;</td>
+                    <td> less than</td>
+                    <td>&amplt;</td>
+                    <td>&amp#60;</td>
+                </tr>
+                <tr align="center">
+                    <td>&gt;</td>
+                    <td>greater than</td>
+                    <td>&amplt;</td>
+                    <td>&amp#62;</td>
+                </tr>
+                <tr align="center">
+                    <td>&amp;</td>
+                    <td>ampersand</td>
+                    <td>&ampamp;</td>
+                    <td>&amp#38;</td>
+                </tr>
+                <tr align="center">
+                    <td>&quot;</td>
+                    <td>double quotation mark</td>
+                    <td>&ampquot;</td>
+                    <td>&amp#34;</td>
+                </tr>
+                <tr align="center">
+                    <td>&apos;</td>
+                    <td>single quotation mark</td>
+                    <td>&ampapos;</td>
+                    <td>&amp#39;</td>
+                </tr>
+                <tr align="center">
+                    <td>&cent;</td>
+                    <td> cent</td>
+                    <td>&ampcent;</td>
+                    <td>&amp#162;</td>
+                </tr>
+                <tr align="center">
+                    <td>&pound;</td>
+                    <td> pound</td>
+                    <td>&amppound;</td>
+                    <td>&amp#163;</td>
+                </tr>
+                <tr align="center">
+                    <td>&yen;</td>
+                    <td> yen</td>
+                    <td>&ampyen;</td>
+                    <td>&amp#165;</td>
+                </tr>
+                <tr align="center">
+                    <td> &euro;</td>
+                    <td> euro</td>
+                    <td>&ampeuro;</td>
+                    <td>&amp#8364;</td>
+                </tr>
+                <tr align="center">
+                    <td> &copy;</td>
+                    <td> copyright</td>
+                    <td>&ampcopy;</td>
+                    <td>&amp#169;</td>
+                </tr>
+                <tr align="center">
+                    <td> &reg;</td>
+                    <td> trademark</td>
+                    <td>&ampreg;</td>
+                    <td>&amp#174;</td>
+                </tr>
+            </table>
+        </li>
+        <hr>
+        <li>
+            <h3>What are different types of lists in HTML?</h3>
+            <ul>
+                <li type="disc">HTML lists allow web developers to group a set of related items in lists.</li>
+                <li type="disc">There are three types of List in html.</li>
+                <ol>
+                    <li>Ordered lists &lt;ol&gt;</li><br>
+                    <ul>
+                        <li type="disc">Each list item starts with the &lt;li&gt; tag.The type attribute of the
+                            &lt;ol&gt; tag, defines the type of the list item marker:</li>
+                        <li type="disc">
+                            <br> &lt;ol&gt;<br> &lt;li&gt; coffee &lt;li&gt; <br> &lt;li&gt; tea &lt;li&gt; <br>
+                            &lt;li&gt; milk &lt;li&gt; <br> &lt;/ol&gt;<br><br>
+                        </li>
+                        <li type="disc">Output of this is <br>1.coffee <br>2.tea <br>3.milk</li><br>
+                        <table border="1" cellpadding="10">
+                            <tr>
+                                <td colspan="1"><b>type</b></td>
+                                <td colspan="1"><b>description</b></td>
+                            </tr>
+                            <tr>
+                                <td>type="1"</td>
+                                <td>The list items will be numbered with numbers (default)</td>
+                            </tr>
+                            <tr>
+                                <td>type="A"</td>
+                                <td>The list items will be numbered with uppercase letters</td>
+                            </tr>
+                            <tr>
+                                <td>type="a"</td>
+                                <td>The list items will be numbered with lowercase letters</td>
+                            </tr>
+                            <tr>
+                                <td>type="I"</td>
+                                <td>The list items will be numbered with uppercase roman numbers</td>
+                            </tr>
+                            <tr>
+                                <td>type="i"</td>
+                                <td>The list items will be numbered with lowercase roman numbers</td>
+                            </tr>
+                        </table>
+                    </ul><br>
+                    <li>unordered lists &lt;ul&gt;</li><br>
+                    <ul>
+                        <li type="disc">Each list item starts with the &lt;li&gt; tag.The list items will be marked with
+                            bullets (small black circles) by default:</li>
+                        <li type="disc"><br> &lt;ul&gt;<br> &lt;li&gt; coffee &lt;li&gt; <br> &lt;li&gt; tea &lt;li&gt;
+                            <br> &lt;li&gt; milk &lt;li&gt; <br> &lt;/ul&gt;<br><br>
+                        </li>
+                        <li type="disc">Output of this is <br></li>
+                        <li type="disc">coffee</li>
+                        <li type="disc">tea</li>
+                        <li type="disc">milk</li><br>
+                        <table border="1" cellpadding="10">
+                            <tr>
+                                <td colspan="1"><b>type</b></td>
+                                <td colspan="1"><b>description</b></td>
+                            </tr>
+                            <tr>
+                                <td>disc</td>
+                                <td>Sets the list item marker to a bullet (default)</td>
+                            </tr>
+                            <tr>
+                                <td>circle</td>
+                                <td>Sets the list item marker to a circle</td>
+                            </tr>
+                            <tr>
+                                <td>square</td>
+                                <td>Sets the list item marker to a square</td>
+                            </tr>
+                            <tr>
+                                <td>none</td>
+                                <td>The list items will not be marked</td>
+                            </tr>
+                        </table><br>
+                    </ul>
+                    <li>description lists &lt;dt&gt;</li><br>
+                    <ul type="disc">
+                        <li>A description list is a list of terms, with a description of each term.The &lt;dl&gt; tag
+                            defines the description list, the &lt;dt&gt; tag defines the term (name), and the &lt;dd&gt;
+                            tag describes each term:</li>
+                        <li><br>&lt;dl&gt;<br>
+                            &lt;dt&gt;Coffee&lt;/dt&gt;<br>
+                            &lt;dd&gt;- black hot drink&lt;/dd&gt;<br>
+                            &lt;dt&gt;Milk&lt;/dt&gt;<br>
+                            &lt;dd&gt;- white cold drink&lt;/dd&gt;<br>
+                            &lt;/dl&gt;</li>
+                        <li>Output of this is </li>
+                        <dl>
+                            <dt>coffee</dt>
+                            <dd>-black hot drink</dd>
+                            <dt>Milk</dt>
+                            <dd>-Whit cold drink</dd>
+                        </dl>
+                    </ul>
+                </ol>
+            </ul>
+        </li>
+        <hr>
+        <li>
+            <h3>What is the ‘class’ attribute in HTML?</h3>
+            <ul type="disc">
+                <li>The class is an attribute that specifies one or more class names for an HTML element.</li>
+                <li>The class attribute can be used on any HTML element.</li>
+                <li>The class name can be used by CSS and JavaScript to perform certain tasks for elements with the
+                    specified class name.</li>
+            </ul>
+        </li>
+        <hr>
+        <li>
+            <h3>What is the difference between the ‘id’ attribute and the ‘class’ attribute of HTML
+                elements?</h3>
+            <table border="1" width="40%" cellpadding="10">
+                <tr>
+                    <td>ID's</td>
+                    <td>Classes</td>
+                </tr>
+                <tr>
+                    <td>Each element can have only one ID.</td>
+                    <td>You can use the same Class on multiple elements.</td>
+                </tr>
+                <tr>
+                    <td>Each ID can have an unlimited amount of Styles applied to it.</td>
+                    <td>Class naming is case sensitive.</td>
+                </tr>
+                <tr>
+                    <td>Each page can have only one element with that ID.</td>
+                    <td>You can use multiple classes on the same element.</td>
+                </tr>
+                <tr>
+                    <td>IDs use “#” in the CSS which can also be used as an identifier for HTML “Jump Links”
+                        (hyperlinks). This allows you to jump from one place to another on the same web page and can
+                        also be used in creating a well-designed Table of Contents.</td>
+                    <td>Classes use a “.” in front of the name in the CSS as seen in the illustration below.</td>
+                </tr>
+
+            </table>
+        </li>
+        <hr>
+        <li>
+            <h3> What are the various formatting tags in HTML?</h3>
+            <ul type="disc">
+                <li>As we know, HTML provides many predefined elements that are used to change the formatting of text.
+                    The formatting can be used to set the text styles (like – bold, italic, or emphasized, etc.),
+                    highlight the text, make text superscript and subscript, etc.</li>
+                <li>different types of formatting tags are :</li>
+                <ol>
+                    <li>&lt;b&gt; and &lt;strong&gt; Tags: Both tags are used to make the text bold. The text content of
+                        the tag is shown as important information on the webpage.</li>
+                    <li>&lt;i&gt; and &lt;em&gt; Tags: Both tags are used to make the text italic and emphasized. Both
+                        the element have opening and closing tags.</li>
+                    <li>&lt;small&gt; and &lt;big&gt; Tags: The &lt;small&gt; tag is used to set small font-size where
+                        as &lt;big&gt; tag is used to set big font-size.</li>
+                    <li>&lt;sup&gt; and &lt;sub&gt; Tags: The &lt;sup&gt; tag is used to superscript a text whereas
+                        &lt;sub&gt; tag is used to subscript a text.</li>
+                    <li> &lt;ins&gt; and &lt;del&gt; Tag: The &lt;ins&gt; tag is used to underline a text marking the
+                        part as inserted or added. It also has an opening and a closing tag. This tag is mainly used in
+                        text in place of deleted text whereas the &lt;del&gt; tag is used to delete the text it adds a
+                        strike line to the text.</li>
+                    <li>HTML &lt;mark&gt; Tag: The &lt;mark&gt; tag is used to highlight a text. It has an opening and
+                        closing tag.</li>
+                </ol>
+                <li>These are the some Examples of formatting Tags in HTML.</li>
+            </ul>
+        </li>
+        <hr>
+        <li>
+            <h3>How is Cell Padding different from Cell Spacing?</h3>
+            <ul type="disc">
+                <li>Cellpadding</li>
+                <ol>
+                    <li>Cellpadding specifies the space between the border of a table cell and its contents (i.e) it
+                        defines the whitespace between the cell edge and the content of the cell.</li>
+                    <li>&lt;table border="1" cellpadding="10"&gt;</li>
+                    <li>
+                        <table border="1" cellpadding="10">
+                            <tr>
+                                <td>Name</td>
+                                <td>Age</td>
+                            </tr>
+                            <tr>
+                                <td>Mayur</td>
+                                <td>22</td>
+                            </tr>
+                            <tr>
+                                <td>Meet</td>
+                                <td>21</td>
+                            </tr>
+                        </table>
+                    </li>
+
+                </ol>
+                <li>Cellspacing</li>
+                <ol>
+                    <li>Cellspacing specifies the space between cells (i.e) it defines the whitespace between the edges
+                        of the adjacent cells.</li>
+                    <li>&lt;table border="1" cellspacing="10"&gt;</li>
+                    <li>
+                        <table border="1" cellspacing="10">
+                            <tr>
+                                <td>Name</td>
+                                <td>Age</td>
+                            </tr>
+                            <tr>
+                                <td>Mayur</td>
+                                <td>22</td>
+                            </tr>
+                            <tr>
+                                <td>Meet</td>
+                                <td>21</td>
+                            </tr>
+                        </table>
+                </ol>
+        </li>
+        <li>You can clearly see the difference between cellpadding and cellspacing</li>
+        </ul>
+        </li>
+        <hr>
+        <li>
+            <h3>How can we club two or more rows or columns into a single row or column in an HTML table?</h3>
+            <ul type="disc">
+                <li>The rowspan is used to merge or combine the number of cells in a row whereas the colspan is used to
+                    merge column cells in a table. </li>
+                <li>we can understand it by Example given below</li><br><br>
+                <li>For rowspan you have to enter the rowspan like &lt;td rowspan="2"&gt;22 &lt;/td&gt;wherever you want
+                    to merge the row in the table .In inverted comma you will enter the number of the rows you want to
+                    merge</li>
+                <table border="1">
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                    </tr>
+                    <tr>
+                        <td>Mayur</td>
+                        <td rowspan="2">22</td>
+                    </tr>
+                    <tr>
+                        <td>Meet </td>
+                    </tr>
+                </table> <br><br>
+                <li>For colspan you have to enter the colspan like &lt;td colspan="2"&gt;sum:28 &lt;/td&gt;wherever you
+                    want to merge the column in the table .In inverted comma you will enter the number of the columns
+                    you want to merge</li>
+                <table border="1">
+                    <tr>
+                        <th>Name</tMh>
+                        <th>Marks</th>
+                    </tr>
+                    <tr>
+                        <td>Mayur</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>Meet</td>
+                        <td>18</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Sum: 28</td>
+                    </tr>
+                </table>
+            </ul>
+        </li>
+        <hr>
+        <li>
+            <h3>What is the difference between a block-level element and an inline element?</h3>
+            <ul type="disc">
+                <li>Block elements: They consume the entire width available irrespective of their sufficiency. They
+                    always start in a new line and have top and bottom margins. It does not contain any other elements
+                    next to it.</li>
+                <li>Example of block-level element :-</li>
+                <ul type="circle">
+                    <li>&lt;h1&gt; - &lt;h6&gt; : This element is used for including headings of different sizes ranging
+                        from 1 to 6.</li>
+                    <li>&lt;div&gt;: This is a container tag and is used to make separate divisions of content on the
+                        web page.</li>
+                    <li>&lt;hr&gt;: This is an empty tag and is used for separating content by horizontal lines.</li>
+                    <li>&lt;li&gt;: This tag is used for including list items of an ordered or unordered list.</li>
+                    <li>&lt;ul&gt;: This tag is used to make an unordered list.</li>
+                    <li>&lt;ol&gt;: This tag is used to make an ordered list.</li>
+                    <li>&lt;p&gt;: This tag is used to include paragraphs of content in the webpage.</li>
+                </ul>
+                <li>Inline elements: Inline elements occupy only enough width that is sufficient to it and allows other
+                    elements next to it which are inline. Inline elements don’t start from a new line and don’t have top
+                    and bottom margins as block elements have.</li>
+                <ul type="circle">
+                    <li>&lt;a&gt;: This tag is used for including hyperlinks in the webpage.</li>
+                    <li>&lt;br&gt;: This tag is used for mentioning line breaks in the webpage wherever needed.</li>
+                    <li>&lt;script&gt; : This tag is used for including external and internal JavaScript codes.</li>
+                    <li>&lt;input&gt;: This tag is used for taking input from the users and is mainly used in forms.
+                    </li>
+                    <li>&lt;img&gt;: This tag is used for including different images in the webpage to add beauty to the
+                        webpage.</li>
+                    <li>&lt;span&gt;: This is an inline container that takes necessary space only.</li>
+                    <li>&lt;b&gt;: This tag is used in places where bold text is needed.</li>
+                </ul>
+            </ul>
+        </li>
+        <hr>
+        <li>
+            <h3>How to create a Hyperlink in HTML?</h3>
+            <ul type="disc">
+                <li>The &lt;a&gt; tag defines a hyperlink, which is used to link from one page to another.</li>
+                <li>The most important attribute of the &lt;a&gt; element is the href attribute, which indicates the
+                    link's destination.</li>
+                <li>For example:</li>
+                <ul type="disc">
+                    <li>&lt;a href="https://www.google.com/"&gt;google&lt;/a&gt;</li>
+                </ul>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+                    href="https://www.google.com/">google</a>
+                <li>There are some more attribute for &lt;a &gt; tag listed below:</li><br>
+                <table border="1" cellpadding="10">
+                    <tr>
+                        <td>Attribute</td>
+                        <td>Value</td>
+                        <td>Description</td>
+                    </tr>
+                    <tr>
+                        <td>download</td>
+                        <td>filename</td>
+                        <td>Specifies that the target will be downloaded when a user clicks on the hyperlink</td>
+                    </tr>
+                    <tr>
+                        <td>href</td>
+                        <td>URL</td>
+                        <td>Specifies the URL of the page the link goes to</td>
+                    </tr>
+                    <tr>
+                        <td>hreflang</td>
+                        <td>language_code</td>
+                        <td>Specifies the language of the linked document</td>
+                    </tr>
+                    <tr>
+                        <td>media</td>
+                        <td>media_query</td>
+                        <td>Specifies what media/device the linked document is optimized for</td>
+                    </tr>
+                    <tr>
+                        <td>target</td>
+                        <td>_blank <br>
+                            _parent <br>
+                            _self <br>
+                            _top</td>
+                        <td>Specifies where to open the linked document</td>
+                    </tr>
+                    <tr>
+                        <td>type</td>
+                        <td>media_type</td>
+                        <td>Specifies the media type of the linked document</td>
+                    </tr>
+                </table>
+            </ul>
+        </li>
+        <hr>
+        <li>
+            <h3>What is the use of an iframe tag?</h3>
+            <ul type="disc">
+                <li>The &lt;iframe&gt; HTML element represents a nested browsing context, embedding another HTML page
+                    into the current one.</li>
+                <li>Syntax for the iframe is <br>&lt;iframe src="" frameborder="0"&gt;&lt;iframe&gt;</li>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/kItVY1XT6rk?si=ZTRJvYVNFvxt4zCx"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe><br>
+                    <iframe src="https://www.tops-int.com/" height="400px" width="400px" ></iframe>
+            </ul>
+        </li>
+        <hr>
+        <li>
+            <h3>What is the use of a span tag? Explain with example?</h3>
+            <ul type="disc">
+                <li>The &lt;span&gt; HTML element is a generic inline container for phrasing content, which does not
+                    inherently represent anything. It can be used to group elements for styling purposes (using the
+                    class or id attributes), or because they share attribute values, such as lang. It should be used
+                    only when no other semantic element is appropriate. &lt;span&gt; is very much like a &lt;div&gt;
+                    element, but &lt;div&gt; is a block-level element whereas a &lt;span&gt; is an inline-level element.
+                </li>
+                <li>For example :&lt;p&gt;&lt;span&gt;some text&lt;/span&gt;&lt;p&gt;</li>
+                <li>output of this is <br>some text</li>
+            </ul>
+        </li>
+        <hr>
+        <li>
+            <h3>How to insert a picture into a background image of a web page?</h3>
+            <ul type="disc">
+                <li>In the body tag, specify a background image in the background attribute by passing the URL of the
+                    image or location path.</li>
+                <li>Adding CSS styling properties.</li>
+                <li>Lets take a example:</li>
+                <li><br>&lt;body background="url of a image or a location of a image&gt;<br> Content of the page
+                    <br>&lt;/body&gt;
+                </li>
+            </ul>
+        </li>
+        <hr>
+        <li>
+            <h3>How are active links different from normal links?</h3>
+            <ul type="disc">
+                <li>Websites are designed to point you to different resources. You can move from one website to another through links. Links help you to get information from different resources. Links are established in simple HTML web pages through &lt;a&gt; tag.</li>
+                <li>Normal link</li>
+                <ul type="disc">
+                    <li>In HTML, an unvisited link(normal link) is a hyperlink that is not yet clicked by the user. By default, the unvisited links will be in blue in color with an underline. However, we can customize the style using the CSS properties (a:link).</li>
+                </ul>
+                <li>Active link</li>
+                <ul type="disc">
+                    <li>An Active link is a hyperlink that is currently being interacted with the user. Whenever the user holds the mouse button on the link and not released yet or if right clicked on it, it will change its color into red, this is when the link will be in active state.The active state is temporary and ends once the user releases the mouse button. However, we can customize the style of the active links using the CSS properties (a:active).</li>
+                </ul>
+            </ul>
+        </li><hr>
+        <li>
+            <h3>What are the different tags to separate sections of text?</h3>
+            <ul type="disc">
+                <li>There are 3 different ways to seperate the section of text listed below:</li>
+                <li>&lt;br&gt; tag use to seperate the line of text</li>
+                <li>&lt;p&gt; tag use to define the paragraph</li>
+                <li>&lt;blockquote&gt;tag specifies a section that is quoted from another source.</li>
+            </ul>
+        </li><hr>
+        <li>
+            <h3>What is SVG?</h3>
+            <ul type="disc">
+                <li>SVG stands for Scalable Vector Graphics</li>
+                <li>SVG is used to define vector-based graphics for the Web</li>
+                <li>SVG defines the graphics in XML format </li>
+                <li>Every element and every attribute in SVG files can be animated</li>
+                <li>SVG is a W3C recommendation</li>
+                <li>SVG integrates with other W3C standards such as the DOM and XSL</li>
+            </ul>
+        </li><hr>
+        <li>
+            <h3>What is difference between HTML and XHTML?</h3>
+            <table border="1" cellpadding="10" width="50%">
+                <tr>
+                    <td align="center">HTML</td>
+                    <td align="center">XHTML</td>
+                </tr>
+                <tr>
+                    <td>1.HTML is an SGML-based language. That is, it defines the standard for generalizing the markup languages for documents. SGML stands for Standard Generalized Markup Language.</td>
+                    <td>1.XHTML is an XML-based language, which means it manipulates and processes data using XML technologies.</td>
+                </tr>
+                <tr>
+                    <td>2. HTML is not a case-sensitive language.</td>
+                    <td>2. XHTML is a case-sensitive language.</td>
+                </tr>
+                <tr>
+                    <td>3. HTML empty elements do not require a closing tag at the end, not even a "/" symbol to signify the end of the tag.</td>
+                    <td>3. XHTML empty elements must always be closed; that is, there must be a "/" symbol at the end of the empty element.</td>
+                </tr>
+                <tr>
+                    <td>4. The tags and attributes in HTML can be specified either in lowercase or uppercase since it is not case-sensitive.</td>
+                    <td>4. All XHTML elements and attributes must be in lowercase since it is a case-sensitive language.</td>
+                </tr>
+                <tr>
+                    <td>5. It is not mandatory to put quotes while using the attributes in HTML.</td>
+                    <td>5. It is mandatory to put quotes while using the attributes in HTML.</td>
+                </tr>
+                <tr>
+                    <td>6. The webpage is displayed even if the HTML document has some errors in it.</td>
+                    <td>6. There is a more strict error handling in XHTML.</td>
+                </tr>
+                <tr>
+                    <td>7. It can have a filename extension of.html</td>
+                    <td>7. Its filename extension can be .xhtml,.xht, or .xml.</td>
+                </tr>
+            </table>
+        </li><hr>
+        <li>
+            
+        </li>
+        <li>
+            <h3>What are logical and physical tags in HTML?</h3>
+            <p>Physical and Logical tags are used in HTML for better visibility and understanding of the text by the user on the web page. However, both tags differ from each other as suggested by their names.</p>
+
+        <ul type="disc">
+            <li>Logical tags : Logical Tags are used in HTML to display the text according to the logical styles. </li><br>
+            <table border="1" cellpadding="10">
+                <tr>
+                    <td>Tag</td>
+                    <td>Description</td>
+                </tr>
+                <tr>
+                    <td>&lt;abbr&gt;</td>
+                    <td>Defines an abbreviation</td>
+                </tr>
+                <tr>
+                    <td>&lt;acronym&gt;</td>
+                    <td>Defines an acronym</td>
+                </tr>
+                <tr>
+                    <td>&lt;address&gt;</td>
+                    <td>Defines an address element</td>
+                </tr>
+                <tr>
+                    <td>&lt;cite&gt;</td>
+                    <td>Defines citation</td>
+                </tr>
+                <tr>
+                    <td>&lt;code&gt;</td>
+                    <td>Defines computer code text</td>
+                </tr>
+                <tr>
+                    <td>&lt;blockquoye&gt;</td>
+                    <td>Defines a long quotation</td>
+                </tr>
+                <tr>
+                    <td>&lt;ins&gt;</td>
+                    <td>Defines inserted text</td>
+                </tr>
+                <tr>
+                    <td>&lt;strong&gt;</td>
+                    <td>Defines strong text</td>
+                </tr>
+            </table><br>
+            <li>Physical Tags : Physical Tags are used in HTML to provide actual physical formatting to the text. Following are the Physical tags commonly used in HTML.</li><br>
+            <table border="1" cellpadding="10">
+                <tr>
+                    <td>tags</td>
+                    <td>Description</td>
+                </tr>
+                <tr>
+                    <td>&lt;b&gt;</td>
+                    <td>Defines bold text</td>
+                </tr>
+                <tr>
+                    <td>&lt;big&gt;</td>
+                    <td>Defines big text</td>
+                </tr>
+                <tr>
+                    <td>&lt;i&gt;</td>
+                    <td>Defines italic text</td>
+                </tr>
+                <tr>
+                    <td>&lt;small&gt;</td>
+                    <td>Defines small text</td>
+                </tr>
+                <tr>
+                    <td>&lt;sup&gt;</td>
+                    <td>Defines superscripted text</td>
+                </tr>
+                <tr>
+                    <td>&lt;sub&gt;</td>
+                    <td>Defines subscripted text</td>
+                </tr>
+            </table>      
+        </ul>
+        </li><hr>
+
+    </ol>
+
+</body>
+
+</html>
